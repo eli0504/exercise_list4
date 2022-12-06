@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class exercise1 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int totalMoney;
+    
+    public void moneyBox(int money)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        totalMoney += money;   //the total value is modified by adding the money that is introduced
     }
 }
