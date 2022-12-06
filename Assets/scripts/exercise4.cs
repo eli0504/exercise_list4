@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class exercise4 : MonoBehaviour
 {
-    public GameObject[] elementPrefabs; //ARRAY 
-    public string elementIndex;
+    public string[] elementPrefabs; //ARRAY 
+    public int elementIndex;
 
     public void SpawnRandomElement()  //function that makes a random element appear
     {
